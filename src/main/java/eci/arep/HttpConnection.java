@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 public class HttpConnection {
     private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String SERVER_1 = "http://localhost:35001/lucasseq?value=";
+    private static final String SERVER_1 = "http://ec2-52-90-12-71.compute-1.amazonaws.com:35001/lucasseq?value=";
     private static final String SERVER_2 = "http://localhost:35002/lucasseq?value=";
 
     private static int server = 0;
