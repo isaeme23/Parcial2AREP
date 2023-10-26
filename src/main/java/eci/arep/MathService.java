@@ -28,11 +28,8 @@ public class MathService {
         return sequence;
     }
 
-    private static HashMap<String, String> setResponse(String sequence, int number){
-        HashMap<String, String> response = new HashMap<>();
-        response.put("output", sequence);
-        response.put("operation", "Secuencia de Lucas");
-        response.put("input", String.valueOf(number));
-        return response;
+    private static String setResponse(String sequence, int number){
+        String response = "";
+        return "{\n \"operation\":\"Secuencia de Lucas\", \n \"input\": \""+number+"\" \n \"output\": \""+sequence+"\"\n }";
     }
 }
