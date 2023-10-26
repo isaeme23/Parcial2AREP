@@ -39,7 +39,9 @@ Realizando esta consulta tendremos la respuesta de una de las maquinas EC2 con e
 
 Prueba de las trs maquinas corriendo y respuesta:
 
-https://github.com/isaeme23/Parcial2AREP/assets/77862058/db5a9996-00c8-49b4-a107-8056eef68091
+
+https://github.com/isaeme23/Parcial2AREP/assets/77862058/35ccccd6-951f-4d9d-9244-78a6bb6deb79
+
 
 ## Arquitectura
 De forma local, el servicio que nos muestra la pantalla principal es la clase **SparkWebServer** el cual se
