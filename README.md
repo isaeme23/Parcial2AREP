@@ -28,6 +28,11 @@ Si apretamos en el boton de enviar con el numero 13, nos aparecera la siguiente 
 
 ![img.png](img/img2.png)
 
+Montando los servicios respectivos en la nube, ingresamos el dns asignado a la maquina proxy
+podremos encontrar de nuevo nuestro servicio:
+
+![img.png](img/img3.png)
+
 ## Arquitectura
 De forma local, el servicio que nos muestra la pantalla principal es la clase **SparkWebServer** el cual se
 conecta al servicio en la clase MathService por medio de la clase de HttpConnection quien alli realiza la 
