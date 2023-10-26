@@ -33,6 +33,10 @@ podremos encontrar de nuevo nuestro servicio:
 
 ![img.png](img/img3.png)
 
+Realizando esta consulta tendremos la respuesta de una de las maquinas EC2 con el servicio correspondiente:
+
+![img.png](img.png)
+
 ## Arquitectura
 De forma local, el servicio que nos muestra la pantalla principal es la clase **SparkWebServer** el cual se
 conecta al servicio en la clase MathService por medio de la clase de HttpConnection quien alli realiza la 
