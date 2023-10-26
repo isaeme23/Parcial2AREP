@@ -1,5 +1,5 @@
 # Parcial Tercio 2 - AREP
-## Isabella Manrique
+## Descripcion
 
 Programa basado en un proxy que funciona como balanceador de cargas que se encarga de
 redirigir las peticiones que el cliente reliza desde el browser para poder obtener una
@@ -37,6 +37,10 @@ Realizando esta consulta tendremos la respuesta de una de las maquinas EC2 con e
 
 ![img.png](img.png)
 
+Prueba de las trs maquinas corriendo y respuesta:
+
+https://github.com/isaeme23/Parcial2AREP/assets/77862058/db5a9996-00c8-49b4-a107-8056eef68091
+
 ## Arquitectura
 De forma local, el servicio que nos muestra la pantalla principal es la clase **SparkWebServer** el cual se
 conecta al servicio en la clase MathService por medio de la clase de HttpConnection quien alli realiza la 
@@ -46,3 +50,12 @@ clase de LucasSequence.
 En la nube tendremos tres maquinas EC2 corriendo, una de ellas será el Proxy y en el estaran las clases de
 SparkWebServer y HttpConnection, en las otras dos maquinas encontraremos las clases de MathService y LucasSequence
 que nos permitiran calcular la sequencia respectiva.
+
+## Agradecimientos
+Profe Luis Daniel Benavides Navarro
+
+## No agradecimientos
+A la luz que se fue dos veces, no ayudó
+
+## Autor
+Isabella Manrique :octocat:
